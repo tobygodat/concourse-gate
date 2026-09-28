@@ -26,7 +26,7 @@ Admission is the interesting path: the kiosk doesn't reimplement it. Its `useAdm
 ## See it in Fiada
 
 1. Run Fiada ([instructions](https://github.com/tobygodat/hackgt13#run-it-locally)).
-2. Add **both** repositories in the sidebar: `will-hamlin/concourse-demo` and this one (its GitHub name, or the absolute path to your checkout).
+2. Add **both** repositories in the sidebar: `will-hamlin/concourse-demo` and `tobygodat/concourse-gate` (or absolute paths to local checkouts).
 3. Leave **colour → layer**. Dashed edges are cross-repository. Open **concourse-gate → kiosk**, select the edge into `concourse-demo`, and read the contract: each interaction lists the import or request and the route it matched.
 4. Switch **view → by function** to see Gate's code folded into Concourse's Checkins, Venues, Alerts and Analytics domains.
 
